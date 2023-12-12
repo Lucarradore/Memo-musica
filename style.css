@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    /* bg colors */
+    --background: #02050e;
+    --primary:#1e50ff;
+    --secondary: #272d37;
+    --btn-bg: #050d26;
+    --bg-azul-10: #e9eeff;
+    --bg-white: #fff;
+    --bg-electric: #f0fbff;
+    --nav-bg: #0f1525;
+
+    /* text colors */
+
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+
+    /* decoration */
+
+    --fire: #ff6d00;
+    --electric: #64d3ff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "poppins", sans-serif;
+    
+}
+
+header{
+    background-color: var(--background);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 500px, color: var(var(--background));
+    min-width: 200px;
+
+    
+    
+}
+
+#masLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    
+
+}
+
+.linksABCD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+    padding: 100px;
+    border-radius: 20px;
+    
+}
+
+.A a{
+    color: var(--text-gray);
+    background-color: var(--background);
+    width: 120px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid darkviolet;
+    border-radius: 20px;
+}
+
+.B a{
+    color: var(--text-gray);
+    background-color: var(--background);
+    width: 120px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid darkviolet;
+    border-radius: 20px;
+}
+
+.C a{
+    color: var(--text-gray);
+    background-color: var(--background);
+    width: 120px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid darkviolet;
+    border-radius: 20px;
+}
+
+.D a{
+    text-decoration-style: none;
+    color: var(--text-gray);
+    background-color: var(--background);
+    width: 120px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid darkviolet;
+    border-radius: 20px;
+    
+}
+
+main{
+    background-color: var(--background);
+    margin-top: 100px, color: var(var(--background));
+    min-width: 200px;
+    margin-bottom: 0px;
+    
+}
+
+#parrafos{
+    
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.H2{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+    
+.H2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    margin-left: -30px;
+    color: darkviolet;
+}
+    
+.H2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    width: 70%;
+    color: var(--text-gray);
+}
+
+img{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    gap: 20px;
+}
+
+#carta{
+    margin-top: 10px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 130px;
+}
+.cartaUno{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: darkviolet;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cartaUno a{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--text-gray)
+    
+}
+
+.cartaDos{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: darkviolet;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cartaDos a{
+    color: var(--text-gray)
+}
+
+.cartaTres{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: darkviolet;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cartaTres a{
+    color: var(--text-gray)
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background);
+    min-width: 200px;
+    margin-bottom: 0px;
+}
+
+#pie p{
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-gray);
+    background-color: var(--background);
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 720px){
+   
+    .H2 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    width: 60%;
+    min-width: 300px;
+    font-weight: 700;
+    margin-left: -50px;
+    color: darkviolet;
+    }
+    
+    #carta{
+        margin-top: 10px;
+        padding: 70px 0;
+        max-width: 1200px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 30px;
+        margin-right: 30px ;
+    }
+
+    #parrafos{
+        padding: 70px 0;
+        max-width: 1200px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-left: 70px;
+    }
+
+    img{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    gap: 20px;
+    margin-left: -50px;
+    }
+
+}
+
+
+@media screen and (max-width: 540px){
+
+    .H2 h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        width: 60%;
+        min-width: 300px;
+        font-weight: 700;
+        margin-left: -80px;
+        color: darkviolet;
+        }
+
+        img{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            background-color: var(--secondary);
+            padding: 20px;
+            border-radius: 15px;
+            justify-content: center;
+            align-content: center;
+            gap: 20px;
+            margin-left: -50px;
+            margin-top: 50px;
+            }
+
+        #parrafos{
+    
+            padding: 70px 0;
+            max-width: 1200px;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            gap: 20 px;
+            margin-left: 70px;
+        }
+        
+        #carta{
+            margin-top: 10px;
+            padding: 70px 0;
+            max-width: 1200px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            gap: 20px;
+            margin-left: 50px;
+            margin-top: -75px;
+            margin-right: 50px;
+        }
+}
+
+@media screen and (max-width: 400px){
+
+    .H2 h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        width: 60%;
+        min-width: 300px;
+        font-weight: 700;
+        margin-left: -100px;
+        color: darkviolet;
+        }
+
+    H2 p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        width: 60%;
+        color: var(--text-gray);
+    }
+
+    #carta{
+        
+        margin-top: 10px;
+        padding: 70px 0;
+        max-width: 60%%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 135px;
+        margin-top: -75px;
+        margin-right: 50px;
+        width: 30%;
+    }
+
+    header{
+        background-color: var(--background);
+        width: 100%
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin-bottom: 500px, color: var(var(--background));
+        min-width: 100px;
+    }
+ 
+    .cartaUno{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        background-color: darkviolet;
+        padding: 20px;
+        border-radius: 15px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .cartaUno a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--text-gray)
+        
+    }
+    
+    .cartaDos{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        background-color: darkviolet;
+        padding: 20px;
+        border-radius: 15px;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .cartaDos a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--text-gray)
+    }
+    
+    .cartaTres{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        background-color: darkviolet;
+        padding: 20px;
+        border-radius: 15px;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .cartaTres a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--text-gray)
+    }
+
+
+    #masLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    
+    }
+
+    .linksABCD{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 30px;
+        padding: 100px;
+        border-radius: 20px;
+        
+        
+    }
+    
+    .A a{
+        color: var(--text-gray);
+        background-color: var(--background);
+        width: 50px;
+        padding: 8px 0;
+        text-align: center;
+        font-size: 10px;
+        border: 2px solid darkviolet;
+        border-radius: 20px;
+        
+        
+    }
+    
+    .B a {
+        color: var(--text-gray);
+        background-color: var(--background);
+        width: 50px;
+        padding: 8px 0;
+        text-align: center;
+        font-size: 10px;
+        border: 2px solid darkviolet;
+        border-radius: 20px;
+        
+    }
+    
+    .C a{
+        color: var(--text-gray);
+        background-color: var(--background);
+        width: 50px;
+        padding: 8px 0;
+        text-align: center;
+        font-size: 10px;
+        border: 2px solid darkviolet;
+        border-radius: 20px;
+    }
+    
+    .D a {
+        text-decoration-style: none;
+        color: var(--text-gray);
+        background-color: var(--background);
+        width: 50px;
+        padding: 8px 0;
+        text-align: center;
+        font-size: 10px;
+        border: 2px solid darkviolet;
+        border-radius: 20px;
+        
+    }
+}
+
+@media screen and (max-width: 300px){
+
+    #parrafos{
+    
+        padding: 70px 0;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap: 20 px;
+        margin-left: 40px;
+    }
+
+    img{
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--secondary);
+        padding: 20px;
+        border-radius: 15px;
+        justify-content: center;
+        align-content: center;
+        gap: 20px;
+        margin-left: -40px;
+        margin-top: 50px;
+        }
+
+        #carta{
+        
+            margin-top: 10px;
+            padding: 70px 0;
+            max-width: 60%%;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-left: 30px;
+            margin-top: -75px;
+            margin-right: 50px;
+            width: 30%;
+        }
+
+        .cartaDos{
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            background-color: darkviolet;
+            margin-left: 255px;
+            margin-top: -140px;
+            padding: 20px;
+            border-radius: 15px;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .cartaDos a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: var(--text-gray)
+        }
+    
+        .cartaUno{
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            background-color: darkviolet;
+            padding: 20px;
+            border-radius: 15px;
+            justify-content: center;
+            gap: 20px;
+            margin-left: 150px;
+        }
+
+        #masLinks {
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+
+            flex-wrap: wrap;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+        
+        }
+
+        .linksABCD{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 90px;
+            gap: 30px;
+            border-radius: 20px;
+            padding: 8px;
+            margin-bottom: 50px;
+        }
+
+        .A a{
+            color: var(--text-gray);
+            background-color: var(--background);
+            width: 50px;
+            padding: 8px 0;
+            text-align: center;
+            font-size: 10px;
+            border: 2px solid darkviolet;
+            border-radius: 20px;
+            
+            
+        }
+        
+        .B a {
+            color: var(--text-gray);
+            background-color: var(--background);
+            width: 50px;
+            padding: 8px 0;
+            text-align: center;
+            font-size: 10px;
+            border: 2px solid darkviolet;
+            border-radius: 20px;
+            
+        }
+        
+        .C a{
+            color: var(--text-gray);
+            background-color: var(--background);
+            width: 50px;
+            padding: 8px 0;
+            text-align: center;
+            font-size: 10px;
+            border: 2px solid darkviolet;
+            border-radius: 20px;
+        }
+        
+        .D a {
+            text-decoration-style: none;
+            color: var(--text-gray);
+            background-color: var(--background);
+            width: 50px;
+            padding: 8px 0;
+            text-align: center;
+            font-size: 10px;
+            border: 2px solid darkviolet;
+            border-radius: 20px;
+            
+        }
+}
+
